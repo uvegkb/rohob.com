@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="ar">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>👻رعب منتصف الليل👻</title>
+    <meta name="description" content="🕯️🔮 مرحبًا بك في أعظم مكتبة رعب على الإطلاق…" />
+
+    <style>
+        body {
+            margin: 0;
+            font-family: "Arial", sans-serif;
+            background: #0d0d0d;
+            color: #fff;
+            overflow-x: hidden;
+            position: relative;
+        }
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+            color: #ff0000;
+            text-shadow: 0 0 10px #ff0000, 0 0 20px #ff0000;
+            z-index: 10;
+            position: relative;
+        }
+
+        #books-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            padding: 20px;
+            width: 100%;
+            position: relative;
+            z-index: 10;
+        }
+
+        .book-card {
+            background: rgba(0, 0, 0, 0.6);
+            border: 2px solid #ff0000;
+            border-radius: 15px;
+            padding: 10px;
+            text-align: center;
+            transition: transform 0.3s, box-shadow 0.3s;
+            overflow: hidden;
+        }
+
+        .book-card:hover {
+            transform: scale(1.05) rotate(-1deg);
+            box-shadow: 0 0 20px #ff0000;
+        }
+
+        .book-card img {
+            width: 100%;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            transition: transform 0.5s;
+        }
+
+        .book-card img:hover {
+            transform: scale(1.05) rotate(-2deg);
+            filter: brightness(1.2) contrast(1.2);
+        }
+
+        button.download-btn {
+            display: inline-block;
+            padding: 8px 20px;
+            background: #ff0000;
+            color: #fff;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-bottom: 10px;
+            font-size: 16px;
+        }
+
+        button.download-btn:hover {
+            background: #990000;
+        }
+
+        .blood-drop {
+            position: fixed;
+            top: 0;
+            width: 8px;
+            height: 8px;
+            background: red;
+            border-radius: 50%;
+            opacity: 0.8;
+            animation-name: fall;
+            animation-timing-function: linear;
+            animation-iteration-count: infinite;
+            z-index: 5;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(0) rotate(0deg);
+                opacity: 1;
+            }
+
+            100% {
+                transform: translateY(100vh) rotate(360deg);
+                opacity: 0;
+            }
+        }
+
+        @media (min-width: 600px) {
+            #books-container {
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .book-card {
+                width: 200px;
+            }
+        }
+
+        .footer {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: #ff0000;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .footer div {
+            margin: 5px 0;
+        }
+
+        .ppp {
+            justify-content: center;
+            display: flex;
+            text-align: center;
+            color: #ff0000;
+            font-size: x-large;
+            font-family: initial;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>بيت الرعب👻</h1>
+    <div id="books-container"></div>
+
+   
+    <script async="async" data-cfasync="false"
+        src="//pl27651351.revenuecpmgate.com/55dea651e0bb42d5a60ccd09b28e3eba/invoke.js"></script>
+    <div id="container-55dea651e0bb42d5a60ccd09b28e3eba"></div>
+
+    <!-- سكربت الاعلان الرئيسي -->
+    <script type='text/javascript'
+        src='//pl27650889.revenuecpmgate.com/2d/27/ad/2d27ad97dd3226dea96082ddba7f89e5.js'></script>
+
+    <script>
+        const books = [
+            {
+                "id": 1,
+                "title": "خوف",
+                "author": "اسامة مسلم",
+                "file": "https://www.dropbox.com/scl/fi/p3l90awsq49j1sh75ydke/2015-1.pdf?rlkey=mvxm6sl0p5d3ohcua50woqw8g&st=rvro6dp1&dl=1",
+                "cover": "https://ketabpedia.com/wp-content/uploads/2025/04/%D8%B1%D9%88%D8%A7%D9%8A%D8%A9-%D8%AE%D9%88%D9%81-1-%D8%A3%D8%B3%D8%A7%D9%85%D9%87-%D8%A7%D9%84%D9%85%D8%B3%D9%84%D9%85.jpg"
+            },
+            {
+                "id": 2,
+                "title": "موسوعة الظلام",
+                "author": "احمد  خالد توفيق",
+                "file": "https://www.dropbox.com/scl/fi/x8ro2w3epps0msy64u6bd/.pdf?rlkey=yj2b0m1fzrqf23l6u2jxslo56&st=45iuhaei&dl=1",
+                "cover": "https://kolalkotob.com/media/imgs/books/book27-06-2021-12-24-52.jpg"
+            },
+            {
+                "id": 3,
+                "title": "مطعم اللحوم البشرية",
+                "author": "أحمد خالد مصطفى",
+                "file": "https://www.dropbox.com/scl/fi/o4xxru42a3nrpfet3l39o/.pdf?rlkey=nyjqw1arr1en7yj5ghpinng80&st=ff9hj9fp&dl=1",
+                "cover": "https://kolalkotob.com/media/imgs/books/book26-06-2021-04-44-44.jpg"
+            },
+            {
+                "id": 4,
+                "title": "ظلال دموية",
+                "author": "مكاريوس عطيتو",
+                "file": "https://www.dropbox.com/scl/fi/64sqk6seagfz9q94ya8kh/kotobati.pdf?rlkey=ukmgqc1ibk7zo9570hh5ulkuv&st=ne2a2g7r&dl=1",
+                "cover": "https://th.bing.com/th/id/OIP.KkWOfLyXI6efTm5zE57bxAHaKW?w=182&h=254&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+            },
+            {
+                "id": 5,
+                "title": "امرأة من عالم الجن",
+                "author": " محمود الزواوى",
+                "file": "https://www.dropbox.com/scl/fi/5yjehi8zsdc0eibyso9bx/kotobati.pdf?rlkey=7neow87i6t0mwmq6tn6cetbh2&st=gdxfg8ap&dl=1",
+                "cover": "https://th.bing.com/th/id/OIP.BwIRDePObfSKnQfoDawBpAHaLZ?w=182&h=280&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+            },
+            {
+                "id": 6,
+                "title": "عشقني عفريت من الجن",
+                "author": "بدر رمضان",
+                "file": "https://www.dropbox.com/scl/fi/rpd58h5zzm6rr57v83tew/kotobati.pdf?rlkey=mgwikjqfj2x8hiina9o7xna84&st=ielo5msu&dl=1",
+                "cover": "https://th.bing.com/th/id/OIP.CCpIirdQOKzHiQ1OkxsY-QAAAA?w=115&h=180&c=7&r=0&o=7&dpr=1.3&pid=1.7&rm=3"
+            },
+            {
+                "id": 8,
+                "title": " عالم الجن",
+                "author": ": آدو السيد",
+                "file": "https://www.dropbox.com/scl/fi/atgx61vmhnxn6sj24kr8d/kotobati.pdf?rlkey=t10so1tntbald5gzm565mgtrk&st=e6a27ddg&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/ofimmp22utbxmmtq98zff/469180881.jpg?rlkey=fltpl2gvjlu3g8mjlp674mf3n&st=lntslg6b&dl=1",
+            },
+            {
+                "id": 9,
+                "title": "مزامير الجن",
+                "author": "نجلاء شهاب",
+                "file": "https://www.dropbox.com/scl/fi/29pc9y5n9jarwvipbhcc9/kotobati.pdf?rlkey=pz64c0tu7jj701kx8nuez4hlq&st=45trqwcy&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/52phsbd0ddhc2yro6tyfp/196460370.jpeg?rlkey=8vd9vu5vzy0416zbz3rx51lvd&st=m2wodq1n&dl=1",
+            },
+            {
+                "id": 9,
+                "title": "جنة الشيطان",
+                "author": "وفاء مصطفى",
+                "file": "https://www.dropbox.com/scl/fi/yp1ahl0g1mvy2s7uhun2w/kotobati.pdf?rlkey=xy4cwoy8icikpu5ow6yuczgra&st=1u1x3w4z&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/stji7c5xb32wmjipbpq07/872276201766.jpg?rlkey=qk1xikeworuuetodlk3e3p6md&st=d2ikct20&dl=1",
+            },
+            {
+                "id": 10,
+                "title": "لحظات رعب",
+                "author": " لحبيب لمسلك",
+                "file": "https://www.dropbox.com/scl/fi/o0r9w45a8n16780r6zn64/kotobati.pdf?rlkey=pqam8g9jihn1ieaw4i91nhj82&st=a1k46z89&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/ui7xotetva6rydza2m53v/423502903975.jpg?rlkey=g80iwnh23ske9gc0bict0rxqh&st=4v5kp59q&dl=1",
+            },
+            {
+                "id": 11,
+                "title": "غضب القرين",
+                "author": "أحمد عصام أبوقايد",
+                "file": "https://www.dropbox.com/scl/fi/f0wxhpb9304dhhatokqww/kotobati.pdf?rlkey=y0kz4dy12k3kob99o6teb82pa&st=u0y3yj4s&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/vad5rxgdc5rqq7zv42hcc/895377521.jpeg?rlkey=w64e37hiyvtq7aym8eqefo5hi&st=5u8clbvb&dl=1",
+            },
+            {
+                "id": 12,
+                "title": " هنا يرقد لشيطان",
+                "author": "عادل ناصر البدوي",
+                "file": "https://www.dropbox.com/scl/fi/bnscfiluwmy637tltm88y/kotobati.pdf?rlkey=wryn7sk6b3jui1iei31j8c95g&st=f4tldbb2&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/yqsuxtjumzz3jg6ghfe76/561646945.jpg?rlkey=viz6qg2238m548ic7vzc1d3ur&st=niiz2djo&dl=1",
+            },
+            {
+                "id": 13,
+                "title": "قصص رعب",
+                "author": "سامي سادات",
+                "file": "https://www.dropbox.com/scl/fi/zbq5m5lxiseaqkmgy4cvw/kotobati.pdf?rlkey=k8brhfhfkhm89z5pxstk97wz8&st=uqapv32c&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/j4cy8bqxr9reruuen1ycd/book_cover_20231403163130_443807IMG-20230219-WA0005.jpg?rlkey=rhdwwgd6z5dx3z1d1sd4shj0h&st=onfqhi59&dl=1",
+            },
+            {
+                "id": 14,
+                "title": " مملكة الظلام",
+                "author": "مريم نادر",
+                "file": "https://www.dropbox.com/scl/fi/nw3ovlpqpbfcxr2hqyri9/kotobati.pdf?rlkey=pm639ahyt4mmk4cldn6khwuar&st=erm21v2w&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/3fyqo2cn957blaessqwsx/481542530156.jpg?rlkey=p0iw84p96efte78tzyw1v77zu&st=gbw65x4d&dl=1",
+            },
+            {
+                "id": 15,
+                "title": " رماد",
+                "author": "هـبة عاطف",
+                "file": "https://www.dropbox.com/scl/fi/xy7bhfu90ve8cfa9k5c54/kotobati.pdf?rlkey=rvqnx6ksmlsvfei0mpajzyqxf&st=laz4oznk&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/e69se1ectmzmlgidzfkz0/643998245.jpg?rlkey=lhmh30ev25pwgh8rzidh3u7as&st=jcqpyec6&dl=1",
+            },
+            {
+                "id": 16,
+                "title": "اكسورديوم",
+                "author": " ميرڤت حسين الطنب",
+                "file": "https://www.dropbox.com/scl/fi/my3xmz92skq9gyyv5uqe8/kotobati.pdf?rlkey=uz0ws9rzou9zpn9l931c072cl&st=zan67vfl&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/7s5byenwic0rd4hv1wzlz/_jpgresize.com_545454-4.jpeg?rlkey=wyu9fdi2br0dupdxttvm5uvxj&st=nqpzw5q6&dl=1",
+            },
+            {
+                "id": 17,
+                "title": "كانوا هنا",
+                "author": "حسام بسام ثروكس",
+                "file": "https://www.dropbox.com/scl/fi/sqsx0vq0pkwa07f60moxl/kotobati.pdf?rlkey=gwsgwjh7ydurxg9soj9zpl4m0&st=2l6t3ky0&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/oiinyxdin196affo24gj1/972182914192.jpg?rlkey=ec8qzx94ycu3driuyp7rh024p&st=wazxgd17&dl=1",
+            },
+            {
+                "id": 18,
+                "title": "الساعة ١٢ ( الأبواب المغلقة )",
+                "author": " مي عمر - Mai Omar",
+                "file": "https://www.dropbox.com/scl/fi/s827rs65kundtpgeh623p/kotobati.pdf?rlkey=21zto4mb9z302vc9i29tx2ueo&st=8syacuae&dl=1",
+                "cover": "https://www.dropbox.com/scl/fi/pjqo4z0tye06mf0pl6i72/_jpgresize.com_book_cover_20243101173124_808772IMG-20240131-WA0025.jpeg?rlkey=ty142xtrl4z3hayqdo8vo8n7u&st=b104fukh&dl=1",
+            }
+
+        ];
+
+        const container = document.getElementById('books-container');
+        books.forEach(book => {
+            container.innerHTML += `
+                <div class="book-card">
+                  <img src="${book.cover}" alt="${book.title}">
+                  <h3>${book.title}</h3>
+                  <p>${book.author}</p>
+                  <button class="download-btn" onclick="downloadWithAd('${book.file}')">📥 تحميل الكتاب</button>
+                </div>
+            `;
+        });
+
+        // دالة التحميل مع الإعلان
+        function downloadWithAd(fileUrl) {
+            // الإعلان يشتغل تلقائي مع السكربت المضاف
+            setTimeout(function () {
+                window.location.href = fileUrl;
+            }, 1000); // تحميل الكتاب بعد ثانية
+        }
+
+        // تأثير الدم المتساقط
+        function createBloodDrop() {
+            const drop = document.createElement('div');
+            drop.className = 'blood-drop';
+            drop.style.left = Math.random() * window.innerWidth + 'px';
+            drop.style.animationDuration = (2 + Math.random() * 3) + 's';
+            document.body.appendChild(drop);
+            setTimeout(() => drop.remove(), 5000);
+        }
+        setInterval(createBloodDrop, 100);
+
+        // فلاش الخلفية
+        function flashBackground() {
+            const flash = Math.random() * 1000 + 500;
+            document.body.style.backgroundColor = '#0d0d0d';
+            setTimeout(() => { document.body.style.backgroundColor = '#330000'; }, flash / 2);
+        }
+        setInterval(flashBackground, 1500);
+
+        // صوت خطوات
+        const stepsAudio = new Audio('https://www.soundjay.com/human/footstep-01.mp3');
+        stepsAudio.volume = 0.05;
+        stepsAudio.loop = true;
+        document.body.addEventListener('click', function playAudioOnce() {
+            stepsAudio.play().catch(e => console.log('خطأ تشغيل الصوت:', e));
+            document.body.removeEventListener('click', playAudioOnce);
+        });
+    </script>
+
+    <div class="footer">
+        <div>سيتم اضافة المزيد من الكتب قريباً</div>
+        <div>لتواصل مع الدعم يرجى الاتصال على</div>
+        <div>Email: abdullahalsinjilawi@gmail.com</div>
+        <div>Facebook: Abdullah Al Sinjilawi</div>
+        <div>منقول</div>
+    </div>
+</body>
+
+</html>
